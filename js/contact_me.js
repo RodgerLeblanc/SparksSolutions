@@ -35,7 +35,7 @@ $(function() {
           $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
           $('#success > .alert-success')
-            .append("<strong>Your message has been sent. </strong>");
+            .append("<strong>Message rendu!</strong>");
           $('#success > .alert-success')
             .append('</div>');
           //clear all fields
@@ -43,13 +43,14 @@ $(function() {
         },
         error: function() {
           // Fail message
-          $('#success').html("<div class='alert alert-danger'>");
-          $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-            .append("</button>");
-          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!"));
-          $('#success > .alert-danger').append('</div>');
-          //clear all fields
-          $('#contactForm').trigger("reset");
+            $('#success').html("<div class='alert alert-danger'>");
+            $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;");
+            $('#success > .alert-danger').append('</button>');
+            $('#success > .alert-danger').append($("<strong>").text(firstName + ", on dirait que mon serveur de courriel est en panne."));
+            $('#success > .alert-danger').append('</strong>');
+            $('#success > .alert-danger').append('</div>');
+            //clear all fields
+            $('#contactForm').trigger("reset");
         },
         complete: function() {
           setTimeout(function() {
@@ -73,3 +74,11 @@ $(function() {
 $('#name').focus(function() {
   $('#success').html('');
 });
+
+function decode_utf8(s) {
+    return decodeURIComponent(escape(s));
+}
+
+function encode_utf8(s) {
+    return unescape(encodeURIComponent(s));
+}
