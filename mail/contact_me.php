@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // Check for empty fields
 if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||
@@ -17,7 +17,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
 $to = 'info@sparkssolutions.ca';
-$email_subject = "Message � partir du site web:  $name";
+$email_subject = "Message à partir du site web:  $name";
 $email_body = "Name: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@sparkssolutions.ca\n";
 $headers .= "Reply-To: $email_address";   
