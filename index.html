@@ -545,17 +545,6 @@
       document.getElementById("contactForm").submit();
     }
   </script>
-  <script>
-    function onClick(e) {
-      e.preventDefault();
-      grecaptcha.ready(function() {
-        console.log('captcha!!!!');
-        grecaptcha.execute('6LfaR7AZAAAAADxzJDcuA-FUxTR1-xpFXt32ArhX', {action: 'submit'}).then(function(token) {
-            // Add your logic to submit to your backend server here.
-        });
-      });
-    }
-</script>
 </body>
 
 </html>
