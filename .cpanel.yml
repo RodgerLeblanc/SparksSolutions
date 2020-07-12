@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/public_html/
+    - /bin/cp -R Website/css $DEPLOYPATH
+    - /bin/cp -R Website/img $DEPLOYPATH
+    - /bin/cp -R Website/js $DEPLOYPATH
+    - /bin/cp -R Website/mail $DEPLOYPATH
+    - /bin/cp -R Website/scss $DEPLOYPATH
+    - /bin/cp -R Website/vendor $DEPLOYPATH
+    - /bin/cp Website/cgi-bin.zip $DEPLOYPATH
+    - /bin/cp Website/gulpfile.js $DEPLOYPATH
+    - /bin/cp Website/index.html $DEPLOYPATH
+    - /bin/cp Website/LICENSE $DEPLOYPATH
+    - /bin/cp Website/package-lock.json $DEPLOYPATH
+    - /bin/cp Website/package.json $DEPLOYPATH
+    - /bin/cp Website/README.md $DEPLOYPATH
