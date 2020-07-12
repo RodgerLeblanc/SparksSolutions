@@ -20,7 +20,8 @@ $to = 'info@sparkssolutions.ca';
 $email_subject = "Message à partir du site web:  $name";
 $email_body = "Name: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@sparkssolutions.ca\n";
-$headers .= "Reply-To: $email_address";   
+$headers .= "Reply-To: $email_address\n";
+$headers .= "Content-Type:text/html;charset=utf-8";
 mail($to,$email_subject,$email_body,$headers);
 return true;         
 ?>
