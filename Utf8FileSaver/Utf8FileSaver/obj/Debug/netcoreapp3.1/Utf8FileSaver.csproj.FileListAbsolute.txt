@@ -1,0 +1,13 @@
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\bin\Debug\netcoreapp3.1\Utf8FileSaver.exe
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\bin\Debug\netcoreapp3.1\Utf8FileSaver.deps.json
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\bin\Debug\netcoreapp3.1\Utf8FileSaver.runtimeconfig.json
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\bin\Debug\netcoreapp3.1\Utf8FileSaver.runtimeconfig.dev.json
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\bin\Debug\netcoreapp3.1\Utf8FileSaver.dll
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\bin\Debug\netcoreapp3.1\Utf8FileSaver.pdb
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\obj\Debug\netcoreapp3.1\Utf8FileSaver.csprojAssemblyReference.cache
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\obj\Debug\netcoreapp3.1\Utf8FileSaver.AssemblyInfoInputs.cache
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\obj\Debug\netcoreapp3.1\Utf8FileSaver.AssemblyInfo.cs
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\obj\Debug\netcoreapp3.1\Utf8FileSaver.csproj.CoreCompileInputs.cache
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\obj\Debug\netcoreapp3.1\Utf8FileSaver.dll
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\obj\Debug\netcoreapp3.1\Utf8FileSaver.pdb
+C:\Users\roger\Dev\SparksSolutions\Utf8FileSaver\Utf8FileSaver\obj\Debug\netcoreapp3.1\Utf8FileSaver.genruntimeconfig.cache

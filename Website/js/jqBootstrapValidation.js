@@ -1,4 +1,4 @@
-/* jqBootstrapValidation
+ï»¿/* jqBootstrapValidation
  * A plugin for automating validation on Twitter Bootstrap formatted forms.
  *
  * v1.3.6
@@ -118,7 +118,7 @@
             // ---------------------------------------------------------
             if ($this.attr("max") !== undefined || $this.attr("aria-valuemax") !== undefined) {
               var max = ($this.attr("max") !== undefined ? $this.attr("max") : $this.attr("aria-valuemax"));
-              message = "Trop éléve: Maximum de '" + max + "'<!-- data-validation-max-message to override -->";
+              message = "Trop Ã©levÃ©: Maximum de '" + max + "'<!-- data-validation-max-message to override -->";
               if ($this.data("validationMaxMessage")) {
                 message = $this.data("validationMaxMessage");
               }
@@ -141,7 +141,7 @@
             //                                                 MAXLENGTH
             // ---------------------------------------------------------
             if ($this.attr("maxlength") !== undefined) {
-              message = "Trop long: Maximum de '" + $this.attr("maxlength") + "' caractères<!-- data-validation-maxlength-message to override -->";
+              message = "Trop long: Maximum de '" + $this.attr("maxlength") + "' caractÃ¨res<!-- data-validation-maxlength-message to override -->";
               if ($this.data("validationMaxlengthMessage")) {
                 message = $this.data("validationMaxlengthMessage");
               }
@@ -152,7 +152,7 @@
             //                                                 MINLENGTH
             // ---------------------------------------------------------
             if ($this.attr("minlength") !== undefined) {
-              message = "Trop court: Minimum de '" + $this.attr("minlength") + "' caractères<!-- data-validation-minlength-message to override -->";
+              message = "Trop court: Minimum de '" + $this.attr("minlength") + "' caractres<!-- data-validation-minlength-message to override -->";
               if ($this.data("validationMinlengthMessage")) {
                 message = $this.data("validationMinlengthMessage");
               }
@@ -823,7 +823,7 @@
         name: "Passwordagain",
         type: "match",
         match: "password",
-        message: "Mot de passe différent<!-- data-validator-paswordagain-message to override -->"
+        message: "Mot de passe diffÃ©rent<!-- data-validator-paswordagain-message to override -->"
       },
       positive: {
         name: "Positive",
@@ -839,25 +839,25 @@
         name: "Number",
         type: "regex",
         regex: "([+-]?\\\d+(\\\.\\\d*)?([eE][+-]?[0-9]+)?)?",
-        message: "Doit être un nombre<!-- data-validator-number-message to override -->"
+        message: "Doit Ãªtre un nombre<!-- data-validator-number-message to override -->"
       },
       integer: {
         name: "Integer",
         type: "regex",
         regex: "[+-]?\\\d+",
-        message: "Décimales interdites<!-- data-validator-integer-message to override -->"
+        message: "DÃ©cimales interdites<!-- data-validator-integer-message to override -->"
       },
       positivenumber: {
         name: "Positivenumber",
         type: "min",
         min: 0,
-        message: "Doit être positif<!-- data-validator-positivenumber-message to override -->"
+        message: "Doit Ãªtre positif<!-- data-validator-positivenumber-message to override -->"
       },
       negativenumber: {
         name: "Negativenumber",
         type: "max",
         max: 0,
-        message: "Doit être négatif<!-- data-validator-negativenumber-message to override -->"
+        message: "Doit Ãªtre nÃ©gatif<!-- data-validator-negativenumber-message to override -->"
       },
       required: {
         name: "Required",
